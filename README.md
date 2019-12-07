@@ -6,30 +6,17 @@
 
 # Como rodar o projeto
 
-Você pode rodar o projeto direto da sua máquina. Mas dessa
-maneira terá instalar todas as dependências por sua conta.  
-Caso opte por essa opção, para rodar o backend basta rodar
-os seguintes comandos:
+Você pode rodar o projeto direto da sua máquina.
 
-1 - Instalar o NestJs cli globalmente na sua máquina  
->**npm i -g @nestjs/cli**
+1 - Faça uma cópia do arquivo **.env.example** para **.env**
 
-
-2- Rodar o comando para instalar as depedencias do projeto
+2 - Instale as dependências
 >**npm install**
 
-3- Configurar as variaveis de ambiente
->**DATABASE_HOST=127.0.0.1**
->**DATABASE_NAME=newschool**
->**DATABASE_USERNAME=root**
->**DATABASE_PASSWORD=123456**
->**NODE_ENV=test**
->**JWT_SECRET=secret**
->**EXPIRES_IN_ACCESS_TOKEN=12000**
->**EXPIRES_IN_REFRESH_TOKEN=24000**
-
-4- Rodar o comando para iniciar o ambiente de desenvolvimento local
+3 - Rodar o comando para iniciar o ambiente de desenvolvimento local
 >**npm run start:dev**
+
+## Docker
 
 Ou, você pode optar por rodar o projeto via Docker. Para isso precisamos 
 que você tenha instalado o Docker e o Docker Compose na sua máquina.
@@ -44,8 +31,6 @@ Isso acontecerá automaticamente.
 
 5- Para executar os teste E2E execute o script abaixo
 >**npm run test:e2e**
-
-# Guidelines
 
 # Como contribuir
 
@@ -83,7 +68,3 @@ https://github.com/NewSchoolBR/newschool-backend
 Hora de colocar a mão na massa. A parte mais divertida, trabalhar no código-fonte. Depois de concluir e testar, envie e aguarde o PULL REQUEST ser aprovado.
 
 5 MISSÃO CUMPRIDA. VC AJUDOU O PROJETO. ❤️
-
-# Código de conduta
-
-# Bugs
